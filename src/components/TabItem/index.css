@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.tab-btn {
+  color: #7b8794;
+  font-size: 18px;
+  font-family: Roboto;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.active-btn-class {
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}

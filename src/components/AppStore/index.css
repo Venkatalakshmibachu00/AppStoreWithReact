@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.app-store-container {
+  height: 100vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e293b;
+}
+.search-input-container {
+  height: 28px;
+  width: 350px;
+  border: 1px solid #7b8794;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.search-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  height: 18px;
+}
+.tab-item-list-container {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.app-item-list-container {
+  width: 450px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  margin-top: 13px;
+}
